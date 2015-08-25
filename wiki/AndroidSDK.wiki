@@ -1,0 +1,14 @@
+#summary How to Install the Android SDK
+
+= Introduction =
+
+Here's a link to the set of instructions for installing the Android SDK.
+
+
+= Details =
+
+http://developer.android.com/sdk/index.html
+
+And here's the SubClipse plugin.
+
+http://subclipse.tigris.org/servlets/ProjectProcess?pageID=p4wYuA

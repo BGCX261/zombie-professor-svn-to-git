@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@+drawable/uimainmenu">
+
+	<edu.purdue.cs.sigai.GameView 
+	    android:id="@+id/view"
+	    android:layout_width="300px"
+	  	android:layout_height="300px"/>
+
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="0, 4">
+	    
+	    <TableRow>
+	    	
+	    	<!-- 
+	    	<Button
+	    		android:id="@+id/look"
+		   		android:layout_width="wrap_content"
+		   		android:layout_height="wrap_content"
+		   		android:layout_column="1"
+		   		android:text="Look" />
+		   		-->
+		    
+	    	<Button
+	    		android:id="@+id/up"
+	    		android:layout_width="75px"
+	    		android:layout_height="60px"
+	    		android:layout_column="2" 
+	    		android:text="Up"  />
+	    		
+	    		
+	    		<!-- 
+	    	<Button
+	    		android:id="@+id/use"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="Use"  />
+	    		-->
+	    		
+	    </TableRow>
+		    
+	    <TableRow>
+	    	<Button
+		        android:id="@+id/left"
+		        android:layout_width="75px"
+            android:layout_height="60px"
+		        android:layout_column="1"
+		        android:text="Left" />
+		    	
+		   	<Button
+		   		android:id="@+id/down"
+		   		android:layout_width="75px"
+          android:layout_height="60px"
+		   		android:text="Down"  />
+		
+	        <Button
+	    		  android:id="@+id/right"
+	        	android:layout_width="75px"
+            android:layout_height="60px"
+		        android:text="Right" />
+		     <View/>		
+	    </TableRow>
+	</TableLayout>
+		
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@+drawable/uimainmenu"
+  
+  android:gravity="bottom">
+  
+  <Button
+    android:id="@+id/newgame"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:background="@+drawable/uibuttonnewgame"
+    />
+    
+    
+    
+  <Button
+    android:id="@+id/story"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:background="@+drawable/uibuttonstory" />
+    
+  <Button
+    android:id="@+id/quit"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:background="@+drawable/uibuttonexit"
+    />
+</LinearLayout>

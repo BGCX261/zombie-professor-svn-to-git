@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Zombie Professor</string>
+
+
+<string name="story">You\'re being followed by zombies.  You try to lose them in the labyrinth beneath Stewart Center.  These aren\'t just any zombies, though.  They can solve the maze.  They are Zombie Professors.  Good Luck.</string>
+</resources>

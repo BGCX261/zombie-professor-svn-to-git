@@ -1,0 +1,1 @@
+Please note: It is essential to install ia32-libs if you plan on getting the Android SDK to work on a 64-bit linux system. That's the problem I was having earlier. 
